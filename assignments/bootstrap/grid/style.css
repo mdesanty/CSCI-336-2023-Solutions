@@ -1,0 +1,22 @@
+#all-might {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.redd.it/w77579qot1n11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-antique {
+  color: antiquewhite;
+}
+
+.faded-in {
+  transition: opacity 3.5s ease;
+  opacity: 1;
+}
+
+.faded-out {
+  transition: opacity 3.5s ease;
+  opacity: 0;
+}

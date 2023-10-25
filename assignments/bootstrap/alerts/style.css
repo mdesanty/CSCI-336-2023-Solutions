@@ -1,0 +1,14 @@
+.btn-purple {
+  background-color: blueviolet;
+  color: white;
+}
+
+.btn-purple:hover {
+  background-color: #7617CE;
+  color: white;
+}
+
+.alert-purple {
+  background-color: #CBC3E3;
+  color: #3A0092;
+}
