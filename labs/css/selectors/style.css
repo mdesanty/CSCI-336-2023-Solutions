@@ -1,0 +1,13 @@
+.top-container > span {
+  color: green;
+}
+
+.middle-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#footer-container {
+  border: 1px solid black;
+  padding: 15px;
+}
