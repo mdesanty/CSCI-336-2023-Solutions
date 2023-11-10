@@ -1,0 +1,10 @@
+#bg {
+  background-image: url("images/chuck_kick.jpg");
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-attachment: fixed;
+}
+
+#jokes-container .row {
+  opacity: .85;
+}
