@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "8c07f88f-d9ed-4b5c-b6b0-ae6dfbe41be6",
+		"name": "Michael DeSanty - Postman Intro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19374042",
+		"_collection_link": "https://interstellar-shadow-872405.postman.co/workspace/MCLA---Advanced-Web-Development~7f88c36e-bdf8-4324-80fb-22f618601267/collection/19374042-8c07f88f-d9ed-4b5c-b6b0-ae6dfbe41be6?action=share&source=collection_link&creator=19374042"
+	},
+	"item": [
+		{
+			"name": "Get activity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.boredapi.com/api/activity/",
+					"protocol": "http",
+					"host": [
+						"www",
+						"boredapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"activity",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get activity",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://www.boredapi.com/api/activity/",
+							"protocol": "http",
+							"host": [
+								"www",
+								"boredapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"activity",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1699648772&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=S9gtVTP2AmcoL5gYqLc%2BEMm%2Fe49g%2Fd1yYtotgcghG8Q%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1699648772&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=S9gtVTP2AmcoL5gYqLc%2BEMm%2Fe49g%2Fd1yYtotgcghG8Q%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Origin, X-Requested-With, Content-Type, Accept"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "146"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"92-FxTFycwQ3xiSi7e2BqiW8vFPPW8\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Nov 2023 20:39:32 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"activity\": \"Volunteer and help out at a senior center\",\n    \"type\": \"charity\",\n    \"participants\": 1,\n    \"price\": 0,\n    \"link\": \"\",\n    \"key\": \"3920096\",\n    \"accessibility\": 0.1\n}"
+				}
+			]
+		}
+	]
+}
