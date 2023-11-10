@@ -1,0 +1,707 @@
+{
+	"info": {
+		"_postman_id": "345e1a9f-d3ac-4b2e-9d50-8e7f885d2e78",
+		"name": "Michael DeSanty - Chuck Norris API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19374042",
+		"_collection_link": "https://interstellar-shadow-872405.postman.co/workspace/MCLA---Advanced-Web-Development~7f88c36e-bdf8-4324-80fb-22f618601267/collection/19374042-345e1a9f-d3ac-4b2e-9d50-8e7f885d2e78?action=share&source=collection_link&creator=19374042"
+	},
+	"item": [
+		{
+			"name": "Get categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/categories",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"categories"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get categories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/categories",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"categories"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1699649231&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=kCNVPMA7%2B0NojIyfC1FAyHH2Qvoq7Bezm5V3LtXqA20%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1699649231&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=kCNVPMA7%2B0NojIyfC1FAyHH2Qvoq7Bezm5V3LtXqA20%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "130"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"82-gjwrZbS5hPf20nXTQtxNsFPkqvM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Nov 2023 20:47:11 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"amazing\",\n    \"animal\",\n    \"business\",\n    \"celebrity\",\n    \"dev\",\n    \"explicit\",\n    \"fiction\",\n    \"food\",\n    \"games\",\n    \"history\",\n    \"math\",\n    \"movies\",\n    \"science\",\n    \"sports\"\n]"
+				}
+			]
+		},
+		{
+			"name": "Get random joke",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/random",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"random"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get random joke",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/random",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"random"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1699649264&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=lQ5EbJBpu8k9K4Fe7lDp2VZxozy%2B9U1%2BGhO1J0WoRpQ%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1699649264&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=lQ5EbJBpu8k9K4Fe7lDp2VZxozy%2B9U1%2BGhO1J0WoRpQ%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "181"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"b5-pvFocqMXeFjxlysFwJmPqUPwIFI\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Nov 2023 20:47:44 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 18,\n    \"value\": \"Chuck Norris bit the apple logo.\",\n    \"category\": \"business\",\n    \"author\": \"Michael DeSanty\",\n    \"created_at\": \"2023-10-18T03:10:45.641Z\",\n    \"updated_at\": \"2023-10-18T03:10:45.641Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get joke 15",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/15",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"15"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/15",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"15"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1699649288&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=VE6wgo4W2j4%2F2t0BWPjssWhxglL9KKD7PbAFskJ9QTQ%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1699649288&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=VE6wgo4W2j4%2F2t0BWPjssWhxglL9KKD7PbAFskJ9QTQ%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "224"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"e0-Rax7WsZiNIZnRgNL0niGDB7X2vs\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Nov 2023 20:48:08 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 15,\n    \"value\": \"Fear of spiders is called aracnaphobia. Fear of Chuck Norris is called logic.\",\n    \"category\": \"animal\",\n    \"author\": \"Michael DeSanty\",\n    \"created_at\": \"2023-10-18T03:10:45.641Z\",\n    \"updated_at\": \"2023-10-18T03:10:45.641Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create joke",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "65300c3c-obzn-0862-bukd-057bbd98e6f3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"value\": \"Chuck Norris does not sleep. He waits.\",\r\n  \"category\": \"amazing\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "md-chuck-norris-jokes.herokuapp.com/jokes",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create joke",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-API-Key",
+								"value": "65300c3c-obzn-0862-bukd-057bbd98e6f3",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"value\": \"Chuck Norris does not sleep. He waits.\",\r\n  \"category\": \"amazing\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "md-chuck-norris-jokes.herokuapp.com/jokes",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1699649400&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=cgYowCHe4MU76QuLGfXEFKB5lykwtYil8YMqCXeca6Y%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1699649400&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=cgYowCHe4MU76QuLGfXEFKB5lykwtYil8YMqCXeca6Y%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "Location"
+						},
+						{
+							"key": "Location",
+							"value": "/jokes/101"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"28-/Cf84JJPklplT4tEmTjRmeaUugs\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Nov 2023 20:50:00 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Joke created successfully.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update joke",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "65300c3c-obzn-0862-bukd-057bbd98e6f3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"value\": \"Chuck Norris can dribble a bowling ball.\",\r\n  \"category\": \"sports\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/101",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"101"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update joke",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "X-API-Key",
+								"value": "65300c3c-obzn-0862-bukd-057bbd98e6f3",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"value\": \"Chuck Norris can dribble a bowling ball.\",\r\n  \"category\": \"sports\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/101",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"101"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1699649485&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=oFztRZWW1hIhcnIbN1ZXreCUfrNSJlwk9aG6fGOxERo%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1699649485&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=oFztRZWW1hIhcnIbN1ZXreCUfrNSJlwk9aG6fGOxERo%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"28-OIOA4XCfG7wKiTiuqpKMyXe7C8s\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Nov 2023 20:51:25 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Joke successfully updated.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete joke",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "65300c3c-obzn-0862-bukd-057bbd98e6f3",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/101",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"101"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete joke",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "X-API-Key",
+								"value": "65300c3c-obzn-0862-bukd-057bbd98e6f3",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/101",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"101"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1699649528&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=oDza2WCgqAeP6MX1ldNT8Ln4o4eIJL8FwXxvIlNKjto%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1699649528&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=oDza2WCgqAeP6MX1ldNT8Ln4o4eIJL8FwXxvIlNKjto%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"28-wsTUoquowRt3rudEHcPRZeZBgOc\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 10 Nov 2023 20:52:08 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Joke successfully deleted.\"\n}"
+				}
+			]
+		}
+	]
+}
