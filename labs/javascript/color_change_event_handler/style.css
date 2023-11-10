@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+}
+
+#colorful-text {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+button {
+  padding: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.purple {
+  color: purple;
+}
