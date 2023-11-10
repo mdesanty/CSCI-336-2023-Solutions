@@ -1,0 +1,8 @@
+#pet-carousel .carousel-item img {
+  object-fit: cover;
+  object-position: 75% 25%;
+  width: auto;
+  min-height: 350px;
+  max-height: 700px;
+  overflow: hidden;
+}
